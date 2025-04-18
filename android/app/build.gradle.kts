@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.devops.bankapp_atm_atm"
+    namespace = "com.devops.bankapp_atm"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
@@ -22,7 +22,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.devops.bankapp_atm_atm"
+        applicationId = "com.devops.bankapp_atm"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
