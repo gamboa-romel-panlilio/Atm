@@ -1,4 +1,4 @@
-package com.devops.bankapp;
+package com.devops.bankapp_atm;
 
 import io.flutter.embedding.android.FlutterActivity;
 
