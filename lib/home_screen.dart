@@ -211,7 +211,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Text(
                           widget.user.bankName,
                           style: const TextStyle(
-                            color: Colors.blue, // Set the bank name to red
+                            color: Colors.white, // Set the bank name to red
                             fontSize: 40,
                           ),
                         ),
