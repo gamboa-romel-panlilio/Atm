@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'user_model.dart';
 
+
 class HomeScreen extends StatefulWidget {
   final Function(int) onFeatureTap;
   final User user;
@@ -190,7 +191,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       gradient: const LinearGradient(
-                        colors: [Color(0xFF1E88E5), Color(0xFF1565C0)],
+                        colors: [Color(0xFFE53935), Color(0xFFC62828)],
+// Light Red to Dark Red
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
@@ -209,7 +211,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         Text(
                           widget.user.bankName,
                           style: const TextStyle(
-                            color: Colors.white,
+                            color: Colors.blue, // Set the bank name to red
                             fontSize: 40,
                           ),
                         ),
